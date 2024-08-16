@@ -10,6 +10,8 @@
     <string name="feminino">Feminino</string>
     <string name="cidade">Cidade</string>
     <string name="uf">UF</string>
+    <string name="limpar">Limpar</string>
+    <string name="salvar">Salvar</string>
     <string-array name="states_of_brazil">
         <item>Acre</item>
         <item>Alagoas</item>
