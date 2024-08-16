@@ -5,4 +5,7 @@
     <string name="ex_12_93456_7890">Ex: 12-93456-7890</string>
     <string name="e_mail">E-mail</string>
     <string name="ingressar_na_lista_de_e_mails">Ingressar na lista de e-mails?</string>
+    <string name="sexo">Sexo</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
 </resources>

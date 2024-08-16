@@ -106,4 +106,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
 
+    <RadioGroup
+        android:id="@+id/sexoRg"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexoTv">
+
+        <RadioButton
+            android:id="@+id/mascRb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/masculino" />
+
+        <RadioButton
+            android:id="@+id/femRb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_10dp"
+            android:text="@string/feminino" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/sexoTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/sexo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ticketEmailsCb" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
