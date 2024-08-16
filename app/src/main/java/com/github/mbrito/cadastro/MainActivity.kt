@@ -14,5 +14,16 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainBinding.root)
+
+        activityMainBinding.cleanBt.setOnClickListener{
+            activityMainBinding.nameEt.text.clear()
+            activityMainBinding.emailEt.text.clear()
+            activityMainBinding.phoneEt.text.clear()
+            activityMainBinding.cityEt.text.clear()
+            activityMainBinding.ticketEmailsCb.isChecked = false
+            activityMainBinding.mascRb.isChecked = false
+            activityMainBinding.femRb.isChecked = false
+            activityMainBinding.stateSn.setSelection(0)
+        }
     }
 }
