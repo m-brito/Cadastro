@@ -16,6 +16,6 @@ class Formulario(
                 "Cidade: $city\n" +
                 "Estado: $state\n" +
                 "Sexo: $sexo\n" +
-                "Ingressar nos emails: $join"
+                "Ingressar nos emails: " + if (join) "Sim" else "Não"
     }
 }
