@@ -2,4 +2,6 @@
     <string name="app_name">Cadastro</string>
     <string name="nome_completo">Nome Completo</string>
     <string name="digite_seu_nome">digite seu nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="digite_seu_telefone">digite seu telefone</string>
 </resources>
